@@ -1,0 +1,23 @@
+package Conditions;
+
+public class Ternary_Operator 
+{
+
+	public static void main(String[] args) 
+	{
+		int i = 1;
+		int j = 5;
+//		
+//		if(i==1)
+//			j = 6;
+//			
+//		else
+//			j = 7;
+//		
+//		System.out.println(j);
+		
+		
+		}
+	
+
+}

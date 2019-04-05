@@ -1,0 +1,20 @@
+package Interface;
+
+interface Uio
+{
+	void dis();
+}
+
+public class Lmn 
+{
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+	
+}
+		
+
+
+

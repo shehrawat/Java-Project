@@ -1,0 +1,15 @@
+package Interface;
+
+public class AbcImp implements Abc
+{
+	public void show()
+	{
+		System.out.println("This is AbcImp");
+	}
+	
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

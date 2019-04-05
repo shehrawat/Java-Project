@@ -1,0 +1,22 @@
+package Interface;
+
+interface Abcd
+{
+	void show();
+}
+
+interface Pqrs extends Abcd
+{
+	
+}
+
+public class LambdaExpression 
+{
+	public static void main(String[] args) 
+	{
+		Abcd obj = () -> System.out.println("This is Show");
+		
+		obj.show();
+	}
+
+}

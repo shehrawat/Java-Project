@@ -1,0 +1,28 @@
+package Polymorphism;
+
+public class Overriding 
+{
+
+	public static void main(String[] args) 
+	{
+		B obj1 = new B();
+		obj1.display();
+	}
+
+}
+
+class A
+{
+	public void display()
+	{
+		System.out.println("This is Display 1");
+	}
+}
+
+class B extends A
+{
+	public void display()
+	{
+		System.out.println("This is Display 2");
+	}
+}

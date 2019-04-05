@@ -1,0 +1,7 @@
+package Interface;
+
+interface Abc 
+{
+//	public abstract void show();	// We dont neet to write public abstract because by default interface take public abstract
+	void show();
+}

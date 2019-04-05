@@ -1,0 +1,13 @@
+package Abstraction;
+
+abstract class Mahesh 
+{
+
+	public void call()
+	{
+		
+	}
+	
+	public abstract void move()
+	
+}

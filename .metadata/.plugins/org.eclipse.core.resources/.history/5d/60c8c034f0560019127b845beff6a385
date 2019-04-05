@@ -1,0 +1,17 @@
+package AnonymousObject;
+
+public class A 
+{
+	public void show()
+	
+	{
+		System.out.println("Show");
+	}
+
+	public static void main(String[] args) 
+	{
+		new A().show();
+		
+	}
+
+}

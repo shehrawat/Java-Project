@@ -1,0 +1,6 @@
+package Interface;
+
+interface Abc 
+{
+	void show();
+}

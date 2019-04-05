@@ -1,0 +1,28 @@
+package SuperKeyword;
+
+public class Super 
+{
+
+	public static void main(String[] args) 
+	{
+		A obj1 = new A();
+		//B obj2 = new B();
+	}
+
+}
+
+class A
+{
+	public A()
+	{
+		System.out.println("Class A");
+	}
+}
+
+class B extends A
+{
+	public B()
+	{
+		System.out.println("Class B");		
+	}
+}

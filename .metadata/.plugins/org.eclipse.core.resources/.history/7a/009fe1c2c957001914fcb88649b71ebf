@@ -1,0 +1,27 @@
+package Interface;
+
+interface Rst
+{
+	void show();
+}
+
+public class Lmn 
+{
+	
+	public static void main(String[] args) 
+	{
+		Rst obj = new Rst() 	// This is Anonymous Class
+		{
+			public void show()
+			{
+				System.out.println("In Show");
+			}
+		};
+		obj.show();
+	}
+	
+}
+		
+
+
+

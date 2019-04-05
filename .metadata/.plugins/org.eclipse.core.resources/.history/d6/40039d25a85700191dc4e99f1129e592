@@ -1,0 +1,16 @@
+package Abstraction;
+
+public class Suresh extends Ramesh		// It is concrete class
+{
+
+	public void dance()
+	{
+		
+	}
+	
+	public void cook()
+	{
+		
+	}
+
+}

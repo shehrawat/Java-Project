@@ -1,0 +1,21 @@
+package Constructor;
+
+public class ABC 
+{
+
+	public static void main(String[] args) 
+	{
+		Xyz obj = new Xyz();
+	}
+
+}
+
+class Xyz
+{
+	
+	public Xyz()
+	{
+		System.out.println("Hello World");
+	}
+
+}

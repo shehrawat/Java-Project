@@ -1,0 +1,21 @@
+package SuperKeyword;
+
+public class Super2 
+{
+
+	public static void main(String[] args) 
+	{
+
+	}
+
+}
+
+class A1		// By default every class extends Object class
+{
+
+}
+
+class B1 extends A1
+{
+
+}

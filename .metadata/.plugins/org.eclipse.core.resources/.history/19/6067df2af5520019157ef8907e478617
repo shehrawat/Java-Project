@@ -1,0 +1,31 @@
+package Constructor;
+
+public class ABC 
+{
+
+	public static void main(String[] args) 
+	{
+		Xyz obj = new Xyz(7);   // xyz() is a constructor
+		obj.asd();
+	}
+
+}
+
+class Xyz
+{
+	public Xyz()  //default constructor
+	{
+		System.out.println("Hello World");
+	}
+	
+	public Xyz(int a)  //parameterized constructor
+	{
+		System.out.println("Hello World");
+	}
+	
+	public void asd()
+	{
+		System.out.println("Ajay Singh");
+	}
+
+}

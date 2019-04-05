@@ -1,0 +1,28 @@
+package Polymorphism;
+
+public class Overriding 
+{
+
+	public static void main(String[] args) 
+	{
+		B obj1 = new B();
+		obj1.display();
+	}
+
+}
+
+class A		// Method overriding , Late Binding , Dynamic Binding , Runtime Polymorphism
+{
+	public void display()
+	{
+		System.out.println("This is Display A");
+	}
+}
+
+class B extends A
+{
+	public void display()
+	{
+		System.out.println("This is Display B");
+	}
+}

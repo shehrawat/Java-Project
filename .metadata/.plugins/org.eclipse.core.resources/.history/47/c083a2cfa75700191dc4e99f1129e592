@@ -1,0 +1,14 @@
+package Abstraction;
+
+public class Suresh extends Ramesh		// It is concrete class
+{
+
+	public void microvave()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		Suresh obj = new Suresh();
+	}
+}
