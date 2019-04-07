@@ -8,6 +8,7 @@ public class Class1 {
 	public void abc(String b) 
 	{
 		a = b;
+		
 	}
 
 	public static void main(String[] args) {
@@ -15,5 +16,6 @@ public class Class1 {
 		obj.abc("Ajay");
 		System.out.println(obj.a);
 		System.out.println(i);
+		System.out.println("Hello");
 	}
 }

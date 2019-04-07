@@ -15,5 +15,6 @@ public class Class1 {
 		obj.abc("Ajay");
 		System.out.println(obj.a);
 		System.out.println(i);
+		System.out.println("Hello");
 	}
 }

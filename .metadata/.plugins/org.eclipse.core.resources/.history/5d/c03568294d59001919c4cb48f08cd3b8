@@ -27,7 +27,6 @@ public class StringOp
 		int l3 = s3.length();
 		System.out.println("String 3 Lenght is : "+l3);
 		
-		// Step 3
 		s1 = s1.toUpperCase();
 		s2 = s2.toUpperCase();
 		s3 = s3.toUpperCase();

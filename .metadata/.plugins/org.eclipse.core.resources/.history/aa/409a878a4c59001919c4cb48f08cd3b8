@@ -9,11 +9,17 @@ public class Class1 {
 	{
 		a = b;
 	}
+	
+	public String xyz()
+	{
+		return a;
+	}
 
 	public static void main(String[] args) {
 		Class1 obj = new Class1();
 		obj.abc("Ajay");
 		System.out.println(obj.a);
+		System.out.println(obj.b);
 		System.out.println(i);
 	}
 }
