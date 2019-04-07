@@ -1,0 +1,23 @@
+package Interface;
+
+interface I 
+{
+	
+	default void show()
+	{
+		System.out.println("I");
+	}
+	
+	static void display()
+	{
+		System.out.println();
+	}
+}
+
+class Ai
+{
+	public static void main(String[] args) 
+	{
+		I.display();
+	}
+}

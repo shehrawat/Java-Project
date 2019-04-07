@@ -1,0 +1,10 @@
+package Interface;
+
+public class C extends StreamApi implements I
+{
+	public static void main(String[] args) 
+	{
+		C objc = new C();
+		objc.show();
+	}
+}

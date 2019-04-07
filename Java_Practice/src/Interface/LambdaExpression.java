@@ -2,12 +2,15 @@ package Interface;
 
 interface Abcd
 {
-	void show();
+	void show();	// This is abstract method because we cannot define it
 }
 
 interface Yyy
 {
-	
+	default void aaa()	// we can define a method in interface using default keyword
+	{
+		
+	}
 }
 
 interface Pqrs extends Abcd, Yyy 	// You can extend more than 1 interface in java 1.8
@@ -15,7 +18,7 @@ interface Pqrs extends Abcd, Yyy 	// You can extend more than 1 interface in jav
 	
 }
 
-public class LambdaExpression 
+public class LambdaExpression
 {
 	public static void main(String[] args) 
 	{

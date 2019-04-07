@@ -1,0 +1,14 @@
+package Interface;
+
+public class ABCJD extends StreamApi
+{
+	public void asd()
+	{
+		System.out.println(i);
+	}
+	public static void main(String[] args) {
+		
+		StreamApi obj = new StreamApi();
+		System.out.println(obj.i);
+	}
+}

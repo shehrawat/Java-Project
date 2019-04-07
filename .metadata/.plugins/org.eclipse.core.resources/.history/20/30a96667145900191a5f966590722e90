@@ -1,0 +1,25 @@
+package Interface;
+
+public class Demo 
+{
+	public void show()
+	{
+		System.out.println("Hello");
+	}
+
+	public static void main(String[] args) 
+	{
+		Demo obj = new Demo();
+		
+		if(obj instanceof P)
+			obj.show();
+		else
+			System.out.println("No Permision");
+	}
+
+}
+
+interface P
+{
+	
+}
