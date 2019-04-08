@@ -18,6 +18,7 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jst.j2ee.internal"/>
 			<item value="org.eclipse.jpt.jaxb"/>
+			<item value="org.testng.eclipse"/>
 			<item value="org.eclipse.jst.ws.ui.new"/>
 		</list>
 	</section>
