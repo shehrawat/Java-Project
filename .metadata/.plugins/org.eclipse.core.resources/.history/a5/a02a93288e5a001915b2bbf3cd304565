@@ -1,0 +1,14 @@
+package String;
+
+public class StringSplitToCSV 
+{
+
+	public static void main(String[] args) 
+	{
+		String str = "Ajay, Abhishek, Roshan, Bhavya, Saanu";
+		
+		String names[] = str.split(",");
+		System.out.println(str );
+	}
+
+}

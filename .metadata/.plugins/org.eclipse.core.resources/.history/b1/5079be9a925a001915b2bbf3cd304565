@@ -1,0 +1,15 @@
+package String;
+
+public class Immutable 
+{
+
+	public static void main(String[] args)  
+	{
+		String str = "Ajay";
+		
+		String str1 = "Ajay";
+		
+		str = "Singh";
+	}
+
+}
