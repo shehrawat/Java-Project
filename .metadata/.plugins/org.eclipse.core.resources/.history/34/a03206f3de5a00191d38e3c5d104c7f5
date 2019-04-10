@@ -1,0 +1,23 @@
+package Exception;
+
+public class Demo 
+{
+
+	public static void main(String[] args) 
+	{
+		int i = 8;
+		int j = 0;
+		
+		try
+		{
+			int k = i/j;
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		System.out.println(k);
+		
+	}
+
+}
