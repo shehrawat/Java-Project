@@ -9,15 +9,22 @@ public class Clonning
 		obj.i = 5;  // -> i = 5
 		obj.j = 6;	// -> j = 6
 		
+		try
+		{
 		Abc obj1 = (Abc)obj.clone();
 		System.out.println(obj1);
 		System.out.println(obj);
+		}
+		catch(CloneNotSupportedException e)
+		{
+			System.out.println(e);
+		}
 		
 	}
 
 }
 
-class Abc implements Cloneable
+class Abc
 {
 	int i;
 	int j;
