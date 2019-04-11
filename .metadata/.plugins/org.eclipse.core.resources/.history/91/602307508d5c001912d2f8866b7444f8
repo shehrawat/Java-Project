@@ -1,0 +1,28 @@
+package ObjectClonning;
+
+public class Clonning 
+{
+
+	public static void main(String[] args) 
+	{
+		Abc obj = new Abc();
+		obj.i = 5;  // -> i = 5
+		obj.j = 6;	// -> j = 6
+		
+		System.out.println(obj);
+	}
+
+}
+
+class Abc
+{
+	int i;
+	int j;
+	
+	@Override
+	public String toString()
+	{
+		return "Abc{" + "i=" + i + ", j=" + j + '}';
+		
+	}
+}

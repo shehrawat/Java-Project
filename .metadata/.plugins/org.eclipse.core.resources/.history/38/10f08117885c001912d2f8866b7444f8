@@ -1,0 +1,22 @@
+package ObjectClonning;
+
+public class A 
+{
+	 int i;
+	 int j;
+
+	public static void main(String[] args) 
+	{
+		A obj = new A();
+		obj.i = 5;  // -> i = 5
+		obj.j = 6;	// -> j = 6
+		
+//		A obj1 = new A();	// -> i = 0 and j = 0
+		A obj1 = obj;		// -> i = 5 and j = 6  -> This is Shallow Copy
+		
+		System.out.println(obj1.i);
+		
+		
+	}
+
+}
