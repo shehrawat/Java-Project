@@ -1,0 +1,21 @@
+package Exception;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class InputDemo 
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		String str;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // BufferedReader Use for taking input from user
+		str = br.readLine(); 
+		
+		
+		
+		
+	}
+
+}

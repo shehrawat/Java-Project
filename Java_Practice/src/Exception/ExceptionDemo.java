@@ -22,15 +22,14 @@ public class ExceptionDemo
 
 }
 
-//Hierarchy of Exception
-  
-// 	- Exception
-//			- Checked  -> Checked extends Exception
-//					- IOException   
-//					- SQLException 
-			
-//			- Unchecked  -> Unchecked extends Exception
-//					- RuntimeException -> RuntimeException extends Unchecked
-//									- Arithmetic Exception
-//									- ArrayIndexOutOfBoundException
-//
+//Hierarchy of Exception  
+
+//  Throwable
+// 		- Exception -> Exception extends Throwable
+//				- Checked  -> Checked extends Exception
+//						- IOException   
+//						- SQLException 
+//				- Unchecked  -> Unchecked extends Exception
+//						- RuntimeException -> RuntimeException extends Unchecked
+//										- Arithmetic Exception
+//										- ArrayIndexOutOfBoundException
