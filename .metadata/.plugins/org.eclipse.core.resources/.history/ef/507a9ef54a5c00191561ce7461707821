@@ -1,0 +1,37 @@
+package Exception;
+
+public class TrywithMultipleCatchUnchecked 
+{
+
+	public static void main(String[] args) 
+	{
+		int i,j,k=0;
+		int ar[] = new int[4];
+		i = 8;
+		j = 0;
+		
+		try
+		{
+			k = i/j;
+			
+			for(int c=1;c<=4;c++)
+			{
+				ar[c] = c+1;
+			}
+			for(int value : ar)
+			{
+				System.out.println(value);
+			}
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("Value is : "+e);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Cannoy devide by zero " +e);
+		}
+		System.out.println(k);
+	}
+
+}

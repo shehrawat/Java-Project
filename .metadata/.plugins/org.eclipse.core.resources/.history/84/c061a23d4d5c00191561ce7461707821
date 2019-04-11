@@ -1,0 +1,33 @@
+package Exception;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class IOException {
+
+	public static void main(String[] args) 
+	{
+		int i,j,k=0;
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		i = 8;
+		j = 0;
+		
+		try
+		{
+			k = i/j;
+			
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Cannoy devide by zero " +e);
+		}
+		catch(Exception e)
+		{
+			System.out.println("Unknown Exception : "+e);
+		}
+		System.out.println(k);
+	}
+
+}

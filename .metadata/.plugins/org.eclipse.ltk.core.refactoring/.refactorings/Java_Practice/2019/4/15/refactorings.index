@@ -1,1 +1,6 @@
 1554705010915	Rename type 'Scanner'
+1554980080405	Rename type 'Demo'
+1554980237176	Rename type 'DemoException'
+1554980255626	Rename type 'ArithmeticException'
+1554983073943	Rename type 'IOException'
+1554983393787	Rename type 'IOExceptionDemo'
