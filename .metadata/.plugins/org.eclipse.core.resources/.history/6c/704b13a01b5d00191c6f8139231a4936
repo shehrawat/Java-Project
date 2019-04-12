@@ -1,0 +1,24 @@
+package FileHandling;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.util.Properties;
+
+public class App 
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		Properties p = new Properties();
+		OutputStream os = new FileOutputStream("dataConfig.properties");
+	
+	
+		p.setProperty("url", "localhost:3306/myDb");
+		p.setProperty("uname", "ajay");
+		p.setProperty("pass", "0000");
+		
+		p.store(os, null);
+	}
+
+}

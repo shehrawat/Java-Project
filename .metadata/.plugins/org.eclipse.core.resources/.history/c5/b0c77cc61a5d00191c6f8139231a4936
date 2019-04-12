@@ -1,0 +1,13 @@
+package FileHandling;
+
+import java.util.Properties;
+
+public class App 
+{
+
+	public static void main(String[] args) 
+	{
+		Properties p = new Properties();
+	}
+
+}
