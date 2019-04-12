@@ -1,20 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="Array.Random"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="Array.Display"/>
-<fullyQualifiedTypeName name="Array.Class22"/>
-<fullyQualifiedTypeName name="Constructor.Xyz"/>
-<fullyQualifiedTypeName name="Constructor.Cns"/>
-<fullyQualifiedTypeName name="Object.Paper"/>
-<fullyQualifiedTypeName name="Object.Printer"/>
-<fullyQualifiedTypeName name="Keywords.Bc"/>
-<fullyQualifiedTypeName name="Interface.StreamApi"/>
-<fullyQualifiedTypeName name="String.Student"/>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-=======
-<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
->>>>>>> 75372cb3c2c6902b9d3f89f486f95cfb1c0e8b30
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
