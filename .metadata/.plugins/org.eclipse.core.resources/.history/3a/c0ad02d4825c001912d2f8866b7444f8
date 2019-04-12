@@ -1,0 +1,11 @@
+package ObjectClonning;
+
+public class ObjectCloning 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

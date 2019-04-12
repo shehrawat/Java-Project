@@ -12,5 +12,9 @@
 <fullyQualifiedTypeName name="Keywords.Bc"/>
 <fullyQualifiedTypeName name="Interface.StreamApi"/>
 <fullyQualifiedTypeName name="String.Student"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+=======
+<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+>>>>>>> 75372cb3c2c6902b9d3f89f486f95cfb1c0e8b30
 </qualifiedTypeNameHistroy>

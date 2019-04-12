@@ -1,0 +1,16 @@
+package Exception;
+
+public class DemoException 
+{
+
+	public static void main(String[] args) 
+	{
+		int i,j,k=0;
+		i = 8;
+		j = 0;
+		k = i/j;
+		
+		System.out.println(k);
+	}
+
+}
