@@ -1,0 +1,14 @@
+package Exception;
+
+import java.io.InputStreamReader;
+
+public class Table 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		BufferReader br = new BufferReader(new InputStreamReader(System.in));
+	}
+
+}

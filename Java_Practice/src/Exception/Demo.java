@@ -13,7 +13,7 @@ public class Demo
 		{
 			k = i/j;
 		}
-		catch(Exception e)
+		catch(ArithmeticException e)
 		{
 //			System.out.println(e);
 			System.out.println("Cannot devide by Zero "+ e);
@@ -23,3 +23,16 @@ public class Demo
 	}
 
 }
+
+// Hierarchy of Exception   - In this all data fetch from javadox
+
+/*Throwable
+ *		  - Exception		// Exception extends Throwable
+ *					- Checked
+ *						-IOException
+ *						-SQLException
+ *
+ * 					- Unchecked
+ * 						-RunTimeException		// RunTimeException extends Exception
+ * 									- ArithmeticException			*/  // ArithmeticException extends RunTimeException
+ 
