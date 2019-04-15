@@ -1,6 +1,0 @@
-package Interface;
-
-interface Pqr 
-{
-	void xyz();
-}

@@ -1,9 +1,0 @@
-package Interface;
-
-public class StreamApi 
-{
-	public void show()
-	{
-		System.out.println("A");
-	}
-}

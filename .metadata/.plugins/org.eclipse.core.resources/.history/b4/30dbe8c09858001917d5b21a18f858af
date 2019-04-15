@@ -1,7 +1,0 @@
-package Interface;
-
-public class StreamApi 
-{
-	public int i = 10;
-
-}
