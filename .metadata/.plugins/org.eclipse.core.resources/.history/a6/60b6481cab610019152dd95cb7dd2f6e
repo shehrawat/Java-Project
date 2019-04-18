@@ -8,9 +8,8 @@ public class CollectionTuts
 
 	public static void main(String[] args) 
 	{
-		Collection<Integer> c = new ArrayList<>();	// It is Generics and Collection is an Interface and Collections is a class
+		Collection<Integer> c = new ArrayList();	// It is Generics and Collection is an Interface and Collections is a class
 															// Generics is used to specify the values
-															// Collection does not work with index number but list is work with index number
 															// ArrayList is a class which implements Collection indirectly
 //		c.add("Ajay");
 //		c.add("Singh");
