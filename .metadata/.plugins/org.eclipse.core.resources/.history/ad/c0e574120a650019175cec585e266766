@@ -10,7 +10,7 @@ public class DemoClass
 	public static void main(String[] args) 
 	{
 		
-		Collection values = new ArrayList<>();	// Collection maintain the sequence of incertion
+		Collection values = new ArrayList<>();
 		values.add(6);
 		values.add("Ajay");
 		values.add(2);
