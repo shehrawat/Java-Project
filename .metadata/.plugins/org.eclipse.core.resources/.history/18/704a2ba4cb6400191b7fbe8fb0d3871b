@@ -17,15 +17,13 @@ public class DemoClass
 		
 		// We can print values using Iterator and enhanced for loop
 		
-		Iterator i = values.iterator();
-		
-		System.out.println(i.next());
-		System.out.println(i.next());
-		System.out.println(i.next());
-		System.out.println(i.next());
-		
-		// Or
-	
+////		Iterator i = values.iterator();
+////		
+////		System.out.println(i.next());
+////		System.out.println(i.next());
+////		System.out.println(i.next());
+////		System.out.println(i.next());
+//		
 		for(Object obj : values)
 		{
 			System.out.println(obj);

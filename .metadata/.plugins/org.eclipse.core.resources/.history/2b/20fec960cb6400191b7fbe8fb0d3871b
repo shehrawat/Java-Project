@@ -20,16 +20,6 @@ public class DemoClass
 		Iterator i = values.iterator();
 		
 		System.out.println(i.next());
-		System.out.println(i.next());
-		System.out.println(i.next());
-		System.out.println(i.next());
-		
-		// Or
-	
-		for(Object obj : values)
-		{
-			System.out.println(obj);
-		}
 	}
 
 }

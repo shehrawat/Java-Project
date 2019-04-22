@@ -23,8 +23,6 @@ public class DemoClass
 		System.out.println(i.next());
 		System.out.println(i.next());
 		System.out.println(i.next());
-		
-		// Or
 	
 		for(Object obj : values)
 		{

@@ -1,0 +1,17 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class DemoClass 
+{
+
+	public static void main(String[] args) 
+	{
+		Collection values = new ArrayList<>();
+		values.add("Ajay");
+		values.add(2);
+		values.add(6.5);
+	}
+
+}
