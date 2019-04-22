@@ -27,10 +27,10 @@ public class DemoClass
 		
 		// Or
 	
-//		for(Object obj : values)
-//		{
-//			System.out.println(obj);
-//		}
+		for(Object obj : values)
+		{
+			System.out.println(obj);
+		}
 	}
 
 }

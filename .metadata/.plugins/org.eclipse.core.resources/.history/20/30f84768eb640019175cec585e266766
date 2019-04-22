@@ -9,7 +9,6 @@ public class DemoClass
 
 	public static void main(String[] args) 
 	{
-		
 		Collection values = new ArrayList<>();
 		values.add(6);
 		values.add("Ajay");
@@ -20,17 +19,17 @@ public class DemoClass
 		
 		Iterator i = values.iterator();
 		
-		while(i.hasNext())
-		{
-			System.out.println(i.next());
-		}
+		System.out.println(i.next());
+		System.out.println(i.next());
+		System.out.println(i.next());
+		System.out.println(i.next());
 		
 		// Or
 	
-//		for(Object obj : values)
-//		{
-//			System.out.println(obj);
-//		}
+		for(Object obj : values)
+		{
+			System.out.println(obj);
+		}
 	}
 
 }
