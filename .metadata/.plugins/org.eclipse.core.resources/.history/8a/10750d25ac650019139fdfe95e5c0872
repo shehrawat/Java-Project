@@ -1,0 +1,25 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListNewDemo 
+{
+
+	public static void main(String[] args) 
+	{
+		List<Integer> values = new ArrayList<>();
+		values.add(98);
+		values.add(87);
+		values.add(52);
+		values.add(1,37);	// Add value in position of index 1 i.e - add value between 2 and 3
+				
+		Collections.sort(values);	// This is used for sort the elements
+		
+		for(int i : values)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

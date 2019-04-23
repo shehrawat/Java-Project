@@ -8,7 +8,7 @@ import java.util.List;
 public class ListNewDemo 
 {
 
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
 		List<Integer> values = new ArrayList<>();
 		values.add(98);
@@ -18,23 +18,18 @@ public class ListNewDemo
 				
 		Collections.sort(values);	// This is used for sort the elements
 		
-		// You can print the values using 1-
+		Iterator i = values.iterator();
 		
-		values.forEach(System.out::println);	// This is Stream API which uses Lambda expression
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+
 		
-		// 2-
-//		Iterator i = values.iterator();
-//		
-//		while(i.hasNext())
-//		{
-//			System.out.println(i.next());
-//		}
-//
-		// 3-
-//		for(int obj : values)
-//		{
-//			System.out.println(obj);
-//		}
+		for(int obj : values)
+		{
+			System.out.println(obj);
+		}
 	}
 
 }

@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.Vector;
+
+public class DemoVector 
+{
+	// Vector is same as ArrayList
+
+	public static void main(String[] args) 
+	{
+		Vector v = new Vector<>();
+		v.add(9);
+		v.add(14);
+		v.add(8);
+		
+		for (Object obj : v)
+		{
+			System.out.println(obj);
+		}
+	}
+
+}

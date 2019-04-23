@@ -10,7 +10,7 @@ public class DemoClass
 	public static void main(String[] args) 
 	{
 		
-		Collection<Integer> values = new ArrayList<>();	// Collection maintain the sequence of insertion
+		Collection<Integer> values = new ArrayList<>();	// Collection maintain the sequence of incertion
 		values.add(6);
 		values.add(2);
 		values.add(9);

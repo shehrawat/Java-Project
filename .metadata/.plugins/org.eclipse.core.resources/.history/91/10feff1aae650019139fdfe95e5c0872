@@ -18,11 +18,7 @@ public class ListNewDemo
 				
 		Collections.sort(values);	// This is used for sort the elements
 		
-		// You can print the values using 1-
-		
-		values.forEach(System.out::println);	// This is Stream API which uses Lambda expression
-		
-		// 2-
+		values.forEach(System.out::println);
 //		Iterator i = values.iterator();
 //		
 //		while(i.hasNext())
@@ -30,7 +26,7 @@ public class ListNewDemo
 //			System.out.println(i.next());
 //		}
 //
-		// 3-
+//		
 //		for(int obj : values)
 //		{
 //			System.out.println(obj);

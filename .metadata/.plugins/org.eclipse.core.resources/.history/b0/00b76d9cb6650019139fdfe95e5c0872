@@ -20,7 +20,7 @@ public class ListNewDemo
 		
 		// You can print the values using 1-
 		
-		values.forEach(System.out::println);	// This is Stream API which uses Lambda expression
+		values.forEach(System.out::println);
 		
 		// 2-
 //		Iterator i = values.iterator();
