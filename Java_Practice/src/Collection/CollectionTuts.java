@@ -37,3 +37,19 @@ public class CollectionTuts
  * */
 
 // ArrayList implements List and List extends Collection
+
+/* ArrayList follows the concept of Dynamic Array
+ * - It shifts the whole values and index when we add or remove the value between the values 
+ * - It takes too much time in insert or remove the values
+ * - In searching or fetch the values it becomes fast because its working on index*/
+
+
+
+
+
+
+
+/* LinkedList follows the concept of Double list 
+ * - It shift only 2 nodes(Previous and Next) when we add or remove the value between the values 
+ * - It takes less time
+ * - In searching or fetch the values it becomes slow because it does not working on index*/

@@ -1,0 +1,26 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListFinalDemo 
+{
+
+	public static void main(String[] args) 
+	{
+		List<Student> studs = new ArrayList<>();
+	}
+
+}
+
+class Student
+{
+	int rollno;
+	int marks;
+	
+	public Student(int rollno , int marks)
+	{
+		this.rollno = rollno;
+		this.marks = marks;
+	}
+}

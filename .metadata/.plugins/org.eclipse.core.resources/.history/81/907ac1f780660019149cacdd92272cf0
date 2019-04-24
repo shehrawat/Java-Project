@@ -1,0 +1,36 @@
+ package Practice;
+
+class Ab
+{
+	int num1;
+	static int num2;
+	
+	public void increment()
+	{
+		num1++;
+	}
+}
+
+public class Abc 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		Ab.num2 = 5;
+		
+		Ab obj1 = new Ab();
+		Ab obj2 = new Ab();
+		Ab obj3 = new Ab();
+		
+		obj1.increment();
+		
+		obj1.num1  = 1;
+		obj2.num1  = 2;
+		obj3.num1  = 3;
+		
+		System.out.println(obj3.num1);
+	
+	}
+
+}
